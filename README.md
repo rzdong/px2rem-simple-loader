@@ -1,5 +1,5 @@
 # px2rem-simple-loader
-
+基于webpack 开发的 px2rem-loader 精简实现方式
 
 # 安装
 npm install px2rem-simple-loader --save
@@ -37,6 +37,5 @@ chainWebpack: config => {
 ```
 
 # 备注
-vue-cli3项目还是用postcss选项比较好，以上配置在vue.config.js的选项只能针对scss文件生效
-
+vue-cli3项目推荐使用postcss选项比较好，以上配置在vue.config.js的选项只能针对scss文件生效，需要大量代码才能覆盖vue生成的webpack规则配置。[点击这里查看](https://cli.vuejs.org/zh/guide/webpack.html#%E4%BF%AE%E6%94%B9-loader-%E9%80%89%E9%A1%B9 "vue css.loaderOptions")
 
