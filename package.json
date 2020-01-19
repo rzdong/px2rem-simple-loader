@@ -1,0 +1,28 @@
+{
+  "name": "px2rem-simple-loader",
+  "description": "转换代码中的px为rem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rzdong/px2rem-simple-loader.git"
+  },
+  "keywords": [
+    "px2rem",
+    "webpack",
+    "loader"
+  ],
+  "author": "rzdong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rzdong/px2rem-simple-loader/issues"
+  },
+  "dependencies": {
+    "loader-utils": "^1.2.3",
+    "schema-utils": "^1.0.0"
+  },
+  "homepage": "https://github.com/rzdong/px2rem-simple-loader#readme",
+  "version": "1.0.0"
+}
